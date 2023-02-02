@@ -1,0 +1,1 @@
+This app provides basic Auth (RBAC/ACL) and Login/Register Scaffolding with Bootstrap and AdminLTE Layouts for your symfony 6+ App.
