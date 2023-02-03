@@ -10,22 +10,22 @@
 - [ ] add mandates (community) to Database
 - [ ] extend get Roles by mandate/community
 
-Default (getRoles) method should return all roles from the default community set in the user (default_community) field 
+Default (getRoles) method should return all roles from the default community set in the user (default_community) field
 
-# 3. Create Basic Website Layouts
-(i18n) https://symfony.com/doc/current/translation.html
+# 3. (i18n) Multi language Support
+https://symfony.com/doc/current/translation.html
 - [ ] add Language Support
 
-Evaluate the use of AdminLTE Package?
-- [ ] add EasyAdmin Bundle
+# 4. Frontend Scaffolding (Twig, React, Vue) or API
+### Choose which frontend scaffolding you would like to use and install it
+- [ ] add Webpack Encore Scaffolding
+- [ ] add TypeScript and Sass Support
+1. EasyAdmin Symfony Bundle: https://symfony.com/bundles/EasyAdminBundle/current/index.html
+2. AdminLTE Symfony Bundle: https://github.com/kevinpapst/AdminLTEBundle
+3. Tabler Symfony Bundle: https://github.com/kevinpapst/TablerBundle
+4. SB Admin 2: https://startbootstrap.com/theme/sb-admin-2
+5. Gull Admin Package (own license): https://themeforest.net/item/gull-bootstrap-laravel-admin-dashboard-template/23101970
+6. React Frontend: https://github.com/inkognitro/react-app-tutorial
 
-Evaluate the Use of Sonata Admin Bundle?
-- [ ] create AdminLTE Layouts
-- [ ] add AdminLTE components
-
-Evaluate SBAdmin2 and compare to AdminLTE
-- [ ] optional create Gull Admin Layouts
-- [ ] add Gull Components
-- [ ] add react frontend package (mfi tutorial)
-
-- Evaluate Use of Mui vs ReactStrap (Bootstrap)
+# 5. Add API from Symfony
+https://api-platform.com/
