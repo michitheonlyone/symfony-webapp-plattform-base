@@ -11,3 +11,5 @@ This app provides basic Auth (RBAC/ACL) and Login/Register Scaffolding with Boot
   - RBAC/ACL Support for multiple communities (getRolesByCommunityId)
 - admin-lte: added AdminLTE Layouts
 - ...
+
+php bin/console doctrine:migrations:migrate

@@ -1,0 +1,85 @@
+$enable-rounded: false;
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  //background-image: linear-gradient(
+  //                45deg,
+  //                hsl(240deg 100% 20%) 0%,
+  //                hsl(289deg 100% 21%) 11%,
+  //                hsl(315deg 100% 27%) 22%,
+  //                hsl(329deg 100% 36%) 33%,
+  //                hsl(337deg 100% 43%) 44%,
+  //                hsl(357deg 91% 59%) 56%,
+  //                hsl(17deg 100% 59%) 67%,
+  //                hsl(34deg 100% 53%) 78%,
+  //                hsl(45deg 100% 50%) 89%,
+  //                hsl(55deg 100% 50%) 100%
+  //);
+  /* Created with https://www.css-gradient.com */
+  //background: -webkit-linear-gradient(top left, #c5dbde, #CDC0E8);
+  //background: -moz-linear-gradient(top left, #c5dbde, #CDC0E8);
+  //background: linear-gradient(to bottom right, #c5dbde, #CDC0E8);
+  background-size: cover;
+  background: #d2e4e7 url("../images/auth-bg-1.jpg") no-repeat fixed center;
+  height: 100%;
+}
+
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+@media (max-width:991.98px) {
+  .padding {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width:767.98px) {
+  .padding {
+    padding: 1rem;
+  }
+}
+
+.padding {
+  padding: 5rem;
+}
+
+
+.card {
+  background: #fff;
+  border-width: 0;
+  border-radius: .25rem;
+  box-shadow: 5px 5px 25px 3px rgba(63, 63, 63, 0.4);
+  margin-bottom: 1.5rem;
+}
+
+
+.card-header {
+  background-color: transparent;
+  border-color: rgba(160, 175, 185, .15);
+  background-clip: padding-box;
+}
+
+.card-body p:last-child {
+  margin-bottom: 0;
+}
+
+.card-hide-body .card-body {
+  display: none;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-check-input.is-invalid~.form-check-label,
+.was-validated .form-check-input:invalid~.form-check-label {
+  color: #f54394;
+}
