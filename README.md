@@ -13,6 +13,10 @@ This app provides basic Auth (RBAC/ACL) and Login/Register Scaffolding with Boot
 - ...
 
 php bin/console doctrine:migrations:migrate
+php bin/console security:hash-password
+
+UUID for unsortable not relational data records
+ULID fr sortable relational data record
 
 
 https://docs.github.com/de/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template
